@@ -1,0 +1,21 @@
+.status-btn{
+    border-radius: 50px;
+    border: 1px solid #dadada;
+    width: 70px;
+}
+.status-btn button{
+    display: block;
+    width: 60%;
+    height: 100%;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+.status-btn.online button{
+    background-color: green;
+    transform: translateX(0);
+}
+.status-btn.offline button{
+    background-color: red;
+    transform: translateX(70%);
+}
